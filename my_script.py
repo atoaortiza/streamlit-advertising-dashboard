@@ -4,7 +4,7 @@ import streamlit as st
 import plotly.express as px
 
 df=pd.read_csv('Advertising_F.csv')
-st.title("Advertising Effectiveness Kushmita")
+st.title("Advertising Effectiveness Andrea")
 
 st.sidebar.header("Filters")
 x_var=st.selectbox("X axis",["TV","radio","newspaper"])
